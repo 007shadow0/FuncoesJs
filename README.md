@@ -8,3 +8,4 @@ Exemplo:
 
 ![image](https://github.com/user-attachments/assets/4faf7c9b-9fc0-4887-8ffd-98ea6c152689)
 
+Essa estrutura é a mais simples, porém, obrigatória para as functions declaration.
