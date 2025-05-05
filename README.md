@@ -18,11 +18,11 @@ Essa estrutura é a mais simples, porém, obrigatória para as functions declara
 #### Desvantagens
 
 
-####Exemplo 1
+#####Exemplo 1
 Function square(numero){
 	Return numero*numero;
 }
-####Exemplo 2
+#######Exemplo 2
 (Declaração de funções em JavaScript são hoisted à definição de função. Pode usar uma função antes de tê-la declarada)
 Hoisted();
 
@@ -30,10 +30,10 @@ Function hoisted(){
 	Console.log(“FOO”);
 }
 
-####Exemplo 3
+########Exemplo 3
 Function nome (Vinícius){
 	Console.log(‘nome’, Vinícius)
 }
 nome(‘Vinícius’)
 
-####Expression
+#########Expression
