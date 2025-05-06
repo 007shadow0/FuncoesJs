@@ -97,6 +97,8 @@ console.log(Vinícius);
 Uma expressão arrow function(funções de seta) tem uma sintaxe pequena, um dos motivos da 
 criação desta função é facilitar a criação e utilização de funções em JavaScript, ou seja, elas permitem a criação de funções de maneira resumida. 
 Em vez de function palavra-chave, ela usa uma seta (composta por dois sinais: = e >).
+
+
 ![Decleration02](https://github.com/user-attachments/assets/a7f7a8d5-764d-42b8-8bac-fdeb89db75b6)
 ![image](https://github.com/user-attachments/assets/306b4553-3a55-49c9-a035-a5a4ffe0dfd4)
 
