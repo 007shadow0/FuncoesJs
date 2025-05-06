@@ -7,10 +7,13 @@ O jeito mais básico de definir funções em JavaScript é através da function 
 Exemplo:
 
 ![Declaration01](https://github.com/user-attachments/assets/7d99f27f-e33b-46f8-9979-3355ff69e8c6)
+![image](https://github.com/user-attachments/assets/daabf333-96f1-4947-82df-9c9ddae4ce1c)
+
 
 Essa estrutura é a mais simples, porém, obrigatória para as functions declaration.Como mencionado anteriormente, também podemos definir parâmetros opcionais separados por vírgula
 
 ![Decleration02](https://github.com/user-attachments/assets/a3699103-c27c-437d-a724-d9fc6d5aebb8)
+![image](https://github.com/user-attachments/assets/28cca402-ac14-46e1-b0ee-a6860533954b)
 
 
 **Vantagens**
@@ -54,6 +57,7 @@ const ola = function() {
 ola()
 
 ![Expression](https://github.com/user-attachments/assets/2241078f-2c7d-497f-acdf-8f0e5bd1b8d5)
+![image](https://github.com/user-attachments/assets/e038d3a3-31f3-4d2c-9017-ceaf83eabd35)
 
 
 Repare que é bem parecido com as funções de declaração, uma das sútis diferenças é que ela está sendo atribuída para uma variável, 
@@ -90,4 +94,40 @@ const vinicius=gerarnome(“Vinícius);
 console.log(Vinícius);
 
 #### Arrow
+Uma expressão arrow function(funções de seta) tem uma sintaxe pequena, um dos motivos da 
+criação desta função é facilitar a criação e utilização de funções em JavaScript, ou seja, elas permitem a criação de funções de maneira resumida. 
+Em vez de function palavra-chave, ela usa uma seta (composta por dois sinais: = e >).
+![Decleration02](https://github.com/user-attachments/assets/a7f7a8d5-764d-42b8-8bac-fdeb89db75b6)
+![image](https://github.com/user-attachments/assets/306b4553-3a55-49c9-a035-a5a4ffe0dfd4)
 
+
+Vantagens
+Sintaxe pequena 
+São anônimas
+
+
+Desvantagens
+Método de objetos
+Não faz hosting
+
+Exemplo 1 
+const n1 = number (prompt("Digite p 1º número:"))
+const n2 = number (prompt("Digite p 2º número:"))
+
+const soma= (n1, n2) => {
+    return n1 + n2;
+}
+console.log(soma(n1, n2))
+
+exemplo 2
+const ola =() => {
+    console.log("Olá mundo!")
+}
+
+exemplo 3
+
+const mult= (x,y) => {
+    const valor= x *y
+    return valor
+};
+console.log(mult(4,5));
