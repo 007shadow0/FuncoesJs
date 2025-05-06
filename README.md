@@ -6,11 +6,11 @@ Definir e criar funções em Javascript utilizando os formatos: declaration, exp
 O jeito mais básico de definir funções em JavaScript é através da function declaration, toda função de declaração começa com a palavra reservada e obrigatória function, seguida pelo nome da função (também obrigatório) e uma lista de parâmetros (opcionais) separados por vírgula e encapsulados em parenteses (obrigatórios), o último passo é definir as chaves (obrigatórias) que será o corpo da função.
 Exemplo:
 
-![image](https://github.com/user-attachments/assets/4faf7c9b-9fc0-4887-8ffd-98ea6c152689)
+![Declaration01](https://github.com/user-attachments/assets/7d99f27f-e33b-46f8-9979-3355ff69e8c6)
 
 Essa estrutura é a mais simples, porém, obrigatória para as functions declaration.Como mencionado anteriormente, também podemos definir parâmetros opcionais separados por vírgula
 
-![image](https://github.com/user-attachments/assets/524c7716-4d14-48cc-bdd9-d94510edf93b)
+![Decleration02](https://github.com/user-attachments/assets/a3699103-c27c-437d-a724-d9fc6d5aebb8)
 
 
 **Vantagens**
@@ -40,15 +40,24 @@ Function nome (Vinícius){
 nome(‘Vinícius’)
 
 ###Expression
-Uma expressão  de função (function expression) se difere de uma declaração de função tradicional na forma a qual declaramos um nome a uma variável podendo ser uma função anônima. a função de expressão pode ser lidada como uma qualquer expressão em JavaScript, por exemplo:
+Uma expressão  de função (function expression) se difere de uma declaração de função tradicional na forma a qual 
+declaramos um nome a uma variável podendo ser uma função anônima. A função de expressão pode ser lidada como uma qualquer expressão em JavaScript, por exemplo:
+
 const nome = 'Vinícius
+
 Nesse exemplo, estamos criando uma expressão onde definimos uma variável chamada nome e atribuímos uma String para ela.
 Com as funções de expressão, podemos fazer algo muito semelhante:
+
 const ola = function() {
     console.log('Olá')
 }
 ola()
-Repare que é bem parecido com as funções de declaração, uma das sútis diferenças é que ela está sendo atribuída para uma variável, onde não definimos o nome da função e sim o nome da variável que irá referenciar a mesma.
+
+![Expression](https://github.com/user-attachments/assets/2241078f-2c7d-497f-acdf-8f0e5bd1b8d5)
+
+
+Repare que é bem parecido com as funções de declaração, uma das sútis diferenças é que ela está sendo atribuída para uma variável, 
+onde não definimos o nome da função e sim o nome da variável que irá referenciar a mesma.
  
 
 **Vantagem**
@@ -79,4 +88,6 @@ const gerarnome= function(nome){
 };
 const vinicius=gerarnome(“Vinícius);
 console.log(Vinícius);
+
+#### Arrow
 
