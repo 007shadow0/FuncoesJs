@@ -14,12 +14,13 @@ Essa estrutura é a mais simples, porém, obrigatória para as functions declara
 
 
 ## Vantagens
--Hosting  
--Legibilidade do código  
--Facilidade de depuração  
+-Hosting.  
+-Legibilidade do código.  
+-Facilidade de depuração.  
 
 ## **Desvantagens**
-
+-Hoisting, apesar de ajudar, pode causar problema em códigos maiores.
+-Sem função anônima.
 
 ## **Exemplo 1**  
 ```javascript
@@ -66,14 +67,14 @@ onde não definimos o nome da função e sim o nome da variável que irá refere
  
 
 ## **Vantagem**  
--Pode criar funções anônimas   
--Legibilidade do código  
+-Pode criar funções anônimas.   
+-Legibilidade do código.  
 
 
 
 ## **Desvantagem**  
--Não faz hosting  
--Depuração menos clara (caso seja uma função anônima)  
+-Não faz hosting.  
+-Depuração menos clara (caso seja uma função anônima).  
 
 ## **Exemplo 1**  
 ```javascript
@@ -105,13 +106,13 @@ Em vez de function palavra-chave, ela usa uma seta (composta por dois sinais: = 
 ![Seta01](https://github.com/user-attachments/assets/585c33f0-865b-46b4-b531-812e01d74e13)
 
 ## Vantagens  
--Sintaxe pequena  
--São anônimas  
+-Sintaxe pequena.  
+-São anônimas.  
 
 
-## Desvantagens  
--Método de objetos  
--Não faz hosting  
+## Desvantagens.  
+-Método de objetos.  
+-Não faz hosting.  
 
 ## Exemplo 1 
 ```javascript
