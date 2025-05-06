@@ -17,9 +17,9 @@ Essa estrutura é a mais simples, porém, obrigatória para as functions declara
 
 
 **Vantagens**
-.Hosting
-.Legibilidade do código
-.Facilidade de depuração
+<sub>Hosting
+Legibilidade do código
+Facilidade de depuração</sub>
 
 **Desvantagens**
 
