@@ -19,8 +19,8 @@ Essa estrutura é a mais simples, porém, obrigatória para as functions declara
 -Facilidade de depuração.  
 
 ## **Desvantagens**
--Hoisting, apesar de ajudar, pode causar problema em códigos maiores.
--Sem função anônima.
+-Hoisting, apesar de ajudar, pode causar problema em códigos maiores.  
+-Sem função anônima.  
 
 ## **Exemplo 1**  
 ```javascript
