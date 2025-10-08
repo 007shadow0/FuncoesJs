@@ -143,3 +143,5 @@ const mult = (x, y) => {
 
 console.log("Resultado da multiplicação:", mult(4, 5));
 ```
+<img width="492" height="121" alt="image" src="https://github.com/user-attachments/assets/953df122-1d2c-45ca-8305-8966dca95561" />
+
